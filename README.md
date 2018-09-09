@@ -7,3 +7,5 @@ speedtest UI
 dao pull daocloud.io/490694561/speedtest
 docker run -dit -p 8080:80 daocloud.io/490694561/speedtest
 ```
+之后访问：
+http://serverip:8080/
