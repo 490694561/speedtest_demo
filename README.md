@@ -4,6 +4,11 @@ speedtest UI
 
 使用命令：
 ```shell
+docker pull 0xpoker/speedtest
+docker run -dit -p 8080:80 0xpoker/speedtest
+```
+或
+```shell
 dao pull daocloud.io/490694561/speedtest
 docker run -dit -p 8080:80 daocloud.io/490694561/speedtest
 ```
